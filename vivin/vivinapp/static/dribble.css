@@ -1,0 +1,90 @@
+CSS
+/* Importing Oswald font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+/* Applying Oswald font globally */
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Customization */
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Card adjustments */
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Gallery section adjustments */
+.gallery-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the image */
+.gallery-img:hover {
+    transform: scale(1.1);  /* This makes the image enlarge */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);  /* Adds a shadow to create the pop-up effect */
+}
+
+/* Main header section adjustments */
+.header-section h3 {
+    font-weight: bold;
+}
+
+.header-section p {
+    font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust Navbar for smaller screens */
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    /* Gallery items adjustment */
+    .gallery-section {
+        margin-top: 20px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust text sizes and layout for very small screens */
+    .header-section h3 {
+        font-size: 1.5em;
+    }
+
+    .header-section p {
+        font-size: 1em;
+    }
+}
