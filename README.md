@@ -263,7 +263,7 @@ body {
 ```
 
 ## OUTPUT:
-![alt text](<vivinapp/static/Screenshot 2024-12-23 135855.png>)
 
+![alt text](<vivinapp/static/Screenshot 2024-12-23 135855.png>)
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
