@@ -135,8 +135,8 @@ Publish the website in the LocalHost.
 
 
 ## OUTPUT:
-![alt text](<vivinapp/static/Screenshot 2024-12-24 052307.png>)
-![alt text](<vivinapp/static/Screenshot 2024-12-24 052319.png>)
 
+![alt text](<Screenshot 2024-12-24 052307.png>)
+![alt text](<Screenshot 2024-12-24 052319.png>)
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
